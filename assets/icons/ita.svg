@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="14" fill="#14365d"/>
+  <path d="m32 12 20 9v4H12v-4l20-9Zm-15 17h4v17h-4V29Zm13 0h4v17h-4V29Zm13 0h4v17h-4V29ZM12 50h40v4H12v-4Z" fill="#fff" opacity=".9"/>
+  <text x="32" y="43" fill="#14365d" font-family="Arial, sans-serif" font-size="10" font-weight="800" text-anchor="middle">ITA</text>
+</svg>

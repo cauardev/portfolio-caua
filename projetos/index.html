@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="pt-BR" data-theme="dark" data-language="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Projetos selecionados de Cauã Robson, com código disponível no GitHub." data-page-description />
+    <meta name="theme-color" content="#050505" />
+    <title>Projetos | Cauã Robson</title>
+    <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
+    <script>
+      document.documentElement.classList.add("js");
+      try {
+        const savedTheme = localStorage.getItem("portfolio-theme");
+        const systemTheme = matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+        const savedLanguage = localStorage.getItem("portfolio-language");
+        document.documentElement.dataset.theme = savedTheme || systemTheme;
+        document.documentElement.dataset.language = savedLanguage === "en" ? "en" : "pt";
+        document.documentElement.lang = savedLanguage === "en" ? "en" : "pt-BR";
+      } catch (_) {
+        document.documentElement.dataset.theme = "dark";
+        document.documentElement.dataset.language = "pt";
+      }
+    </script>
+    <link rel="preload" href="../assets/fonts/allura-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+    <script src="../assets/js/script.js" defer></script>
+  </head>
+  <body data-page="projects">
+    <a class="skip-link" href="#conteudo" data-i18n="global.skip">Ir para o conteúdo</a>
+
+    <header class="site-header">
+      <div class="scroll-progress" aria-hidden="true"><span data-scroll-progress></span></div>
+      <div class="page-shell header-frame">
+        <a class="brand" href="../index.html" aria-label="Cauã Robson — página inicial" data-i18n-aria-label="global.brandLabel">
+          <span class="brand-mark" aria-hidden="true">CR</span><span>Cauã Robson</span>
+        </a>
+        <nav class="main-nav" aria-label="Navegação principal" data-i18n-aria-label="global.navLabel">
+          <a class="nav-link" href="../index.html" data-i18n="nav.home">Home</a>
+          <a class="nav-link" href="../tecnologias/index.html" data-i18n="nav.technologies">Tecnologias</a>
+          <a class="nav-link" href="../projetos/index.html" aria-current="page" data-i18n="nav.projects">Projetos</a>
+          <a class="nav-link" href="../carreira/index.html" data-i18n="nav.career">Carreira</a>
+        </nav>
+        <div class="control-cluster">
+          <button class="language-toggle" type="button" data-language-toggle aria-label="Mudar idioma para inglês" title="Mudar idioma para inglês">
+            <img src="../assets/flags/br.svg" data-language-flag data-src-pt="../assets/flags/br.svg" data-src-en="../assets/flags/us.svg" width="20" height="15" alt="" />
+            <span data-language-code>PT</span>
+          </button>
+          <button class="theme-toggle" type="button" data-theme-toggle aria-label="Alternar tema" title="Alternar tema">
+            <svg class="theme-icon theme-icon--sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8" /><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" /></svg>
+            <svg class="theme-icon theme-icon--moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 14.2A8.5 8.5 0 0 1 9.8 3.5 8.5 8.5 0 1 0 20.5 14.2Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" /></svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="page-shell page-main" id="conteudo">
+      <header class="editorial-hero" data-reveal>
+        <div class="page-number" aria-hidden="true">02</div>
+        <div>
+          <p class="section-code"><span>02</span> / <span data-i18n="projects.eyebrow">Projetos</span></p>
+          <h1 data-i18n="projects.title">Projetos com código disponível.</h1>
+          <p data-i18n="projects.intro">Uma seleção curta do que melhor registra meu momento técnico. O nome de cada projeto abre o repositório correspondente.</p>
+        </div>
+      </header>
+
+      <section class="project-list" aria-label="Lista de projetos" data-i18n-aria-label="projects.listAria">
+        <article class="project-row" data-reveal>
+          <span class="project-index" aria-hidden="true">01</span>
+          <div class="project-content">
+            <p class="project-kicker" data-i18n="projects.arcaType">Projeto acadêmico full stack</p>
+            <a class="project-title" href="https://github.com/cauardev/projeto-arca-gp8" target="_blank" rel="noopener noreferrer">
+              <span>ARCA</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" /></svg>
+            </a>
+            <p class="project-description" data-i18n="projects.arcaDescription">Plataforma de atendimento e cadastro animal com API em Spring Boot, autenticação JWT, PostgreSQL com Flyway e ambiente Docker Compose.</p>
+          </div>
+          <div class="project-stack">
+            <span class="project-stack__label">Stack</span>
+            <ul class="project-icons" aria-label="Tecnologias do ARCA" data-i18n-aria-label="projects.arcaStack">
+              <li title="Java 21"><img src="../assets/icons/openjdk.svg" alt="Java 21" /></li>
+              <li title="Spring Boot"><img src="../assets/icons/spring.svg" alt="Spring Boot" /></li>
+              <li title="PostgreSQL"><img src="../assets/icons/postgresql.svg" alt="PostgreSQL" /></li>
+              <li title="Docker"><img src="../assets/icons/docker.svg" alt="Docker" /></li>
+              <li title="Next.js"><img src="../assets/icons/nextdotjs.svg" alt="Next.js" /></li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="project-row" data-reveal>
+          <span class="project-index" aria-hidden="true">02</span>
+          <div class="project-content">
+            <p class="project-kicker" data-i18n="projects.crmType">Java puro · Aplicação de terminal</p>
+            <a class="project-title" href="https://github.com/cauardev/crm-clientes-java" target="_blank" rel="noopener noreferrer">
+              <span data-i18n="projects.crmName">CRM de Clientes</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" /></svg>
+            </a>
+            <p class="project-description" data-i18n="projects.crmDescription">Aplicação de terminal em Java puro com CRUD completo, validações, persistência em arquivo, arquitetura em camadas e testes sem framework.</p>
+          </div>
+          <div class="project-stack">
+            <span class="project-stack__label">Stack</span>
+            <ul class="project-icons" aria-label="Tecnologias do CRM de Clientes" data-i18n-aria-label="projects.crmStack">
+              <li title="Java 17"><img src="../assets/icons/openjdk.svg" alt="Java 17" /></li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="project-row" data-reveal>
+          <span class="project-index" aria-hidden="true">03</span>
+          <div class="project-content">
+            <p class="project-kicker" data-i18n="projects.portfolioType">Projeto autoral · Site estático</p>
+            <a class="project-title" href="https://github.com/cauardev/portfolio" target="_blank" rel="noopener noreferrer">
+              <span data-i18n="projects.portfolioName">Portfólio</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" /></svg>
+            </a>
+            <p class="project-description" data-i18n="projects.portfolioDescription">Portfólio estático multi-page, responsivo e sem framework JavaScript, com tema e idioma persistentes e deploy direto no GitHub Pages.</p>
+          </div>
+          <div class="project-stack">
+            <span class="project-stack__label">Stack</span>
+            <ul class="project-icons" aria-label="Tecnologias do portfólio" data-i18n-aria-label="projects.portfolioStack">
+              <li title="HTML5"><img src="../assets/icons/html5.svg" alt="HTML5" /></li>
+              <li title="Tailwind CSS"><img src="../assets/icons/tailwindcss.svg" alt="Tailwind CSS" /></li>
+              <li title="JavaScript"><img src="../assets/icons/javascript.svg" alt="JavaScript" /></li>
+              <li title="GitHub"><img src="../assets/icons/github.svg" alt="GitHub" /></li>
+            </ul>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="page-shell footer-main">
+        <div><p class="footer-signature">Cauã Robson</p><p class="footer-note" data-i18n="global.footerNote">Backend em construção, com o progresso publicado.</p></div>
+        <div class="footer-links">
+          <a href="https://github.com/cauardev" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/cau%C3%A3robson" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+          <a href="https://www.instagram.com/c4ua.rbs/" target="_blank" rel="noopener noreferrer">Instagram ↗</a>
+        </div>
+        <div class="footer-actions">
+          <span class="location-pill"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z" fill="none" stroke="currentColor" stroke-width="1.7" /><circle cx="12" cy="10" r="2.5" fill="none" stroke="currentColor" stroke-width="1.7" /></svg><span data-i18n="global.locationShort">Vila Velha, ES</span></span>
+          <button class="back-to-top" type="button" data-back-to-top aria-label="Voltar ao topo" title="Voltar ao topo"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 15 6-6 6 6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" /></svg></button>
+        </div>
+      </div>
+      <div class="page-shell footer-bottom"><p>© 2026 Cauã Robson</p><p>HTML · Tailwind CSS · JavaScript</p></div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "name": "portfolio-caua-robson",
+  "version": "5.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build:css": "tailwindcss -i ./src/input.css -o ./assets/css/styles.css --minify",
+    "watch:css": "tailwindcss -i ./src/input.css -o ./assets/css/styles.css --watch"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "4.3.3",
+    "tailwindcss": "4.3.3",
+    "vite": "8.2.1"
+  }
+}

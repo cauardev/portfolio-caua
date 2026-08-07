@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="pt-BR" data-theme="dark" data-language="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfólio de Cauã Robson, desenvolvedor backend focado no ecossistema Java e Spring."
+      data-page-description
+    />
+    <meta name="theme-color" content="#050505" />
+    <title>Cauã Robson | Desenvolvedor Backend</title>
+    <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
+    <script>
+      document.documentElement.classList.add("js");
+      try {
+        const savedTheme = localStorage.getItem("portfolio-theme");
+        const systemTheme = matchMedia("(prefers-color-scheme: light)").matches
+          ? "light"
+          : "dark";
+        const savedLanguage = localStorage.getItem("portfolio-language");
+        document.documentElement.dataset.theme = savedTheme || systemTheme;
+        document.documentElement.dataset.language = savedLanguage === "en" ? "en" : "pt";
+        document.documentElement.lang = savedLanguage === "en" ? "en" : "pt-BR";
+      } catch (_) {
+        document.documentElement.dataset.theme = "dark";
+        document.documentElement.dataset.language = "pt";
+      }
+    </script>
+    <link rel="preload" href="./assets/fonts/allura-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <script src="./assets/js/script.js" defer></script>
+  </head>
+  <body data-page="home">
+    <a class="skip-link" href="#conteudo" data-i18n="global.skip">Ir para o conteúdo</a>
+
+    <header class="site-header">
+      <div class="scroll-progress" aria-hidden="true"><span data-scroll-progress></span></div>
+      <div class="page-shell header-frame">
+        <a
+          class="brand"
+          href="./index.html"
+          aria-label="Cauã Robson — página inicial"
+          data-i18n-aria-label="global.brandLabel"
+        >
+          <span class="brand-mark" aria-hidden="true">CR</span>
+          <span>Cauã Robson</span>
+        </a>
+
+        <nav
+          class="main-nav"
+          aria-label="Navegação principal"
+          data-i18n-aria-label="global.navLabel"
+        >
+          <a class="nav-link" href="./index.html" aria-current="page" data-i18n="nav.home">Home</a>
+          <a class="nav-link" href="./tecnologias/index.html" data-i18n="nav.technologies">Tecnologias</a>
+          <a class="nav-link" href="./projetos/index.html" data-i18n="nav.projects">Projetos</a>
+          <a class="nav-link" href="./carreira/index.html" data-i18n="nav.career">Carreira</a>
+        </nav>
+
+        <div class="control-cluster">
+          <button
+            class="language-toggle"
+            type="button"
+            data-language-toggle
+            aria-label="Mudar idioma para inglês"
+            title="Mudar idioma para inglês"
+          >
+            <img
+              src="./assets/flags/br.svg"
+              data-language-flag
+              data-src-pt="./assets/flags/br.svg"
+              data-src-en="./assets/flags/us.svg"
+              width="20"
+              height="15"
+              alt=""
+            />
+            <span data-language-code>PT</span>
+          </button>
+
+          <button class="theme-toggle" type="button" data-theme-toggle aria-label="Alternar tema" title="Alternar tema">
+            <svg class="theme-icon theme-icon--sun" viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8" />
+              <path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+            </svg>
+            <svg class="theme-icon theme-icon--moon" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M20.5 14.2A8.5 8.5 0 0 1 9.8 3.5 8.5 8.5 0 1 0 20.5 14.2Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="page-shell" id="conteudo">
+      <section class="signature-hero" data-reveal aria-labelledby="titulo-principal">
+        <div class="hero-ruler" aria-hidden="true">
+          <span>CR / 01</span>
+          <span>PORTFOLIO · 2026</span>
+        </div>
+
+        <div class="hero-center">
+          <p class="hero-role">Backend Developer · Java &amp; Spring</p>
+          <h1 class="signature-wordmark" id="titulo-principal">Cauã Robson</h1>
+          <p class="hero-statement" data-i18n="home.heroStatement">
+            Construindo base técnica, projeto por projeto.
+          </p>
+        </div>
+
+        <div class="hero-foot">
+          <div class="hero-facts">
+            <span class="fact-chip">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z" fill="none" stroke="currentColor" stroke-width="1.7" /><circle cx="12" cy="10" r="2.5" fill="none" stroke="currentColor" stroke-width="1.7" /></svg>
+              <span data-i18n="global.location">Vila Velha, ES — Brasil</span>
+            </span>
+            <span class="fact-chip fact-chip--status">
+              <span class="status-dot" aria-hidden="true"></span>
+              <span data-i18n="home.availability">Disponível para estágio</span>
+            </span>
+          </div>
+
+          <div class="hero-actions">
+            <a class="button button--filled" href="./projetos/index.html">
+              <span data-i18n="actions.viewProjects">Ver projetos</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" /></svg>
+            </a>
+            <a class="button button--quiet" href="./carreira/index.html">
+              <span data-i18n="actions.viewJourney">Ver trajetória</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" /></svg>
+            </a>
+          </div>
+
+          <nav
+            class="social-inline"
+            aria-label="Perfis sociais"
+            data-i18n-aria-label="home.socialLabel"
+          >
+            <a href="https://www.linkedin.com/in/cau%C3%A3robson" target="_blank" rel="noopener noreferrer" aria-label="Abrir LinkedIn de Cauã Robson" data-i18n-aria-label="social.linkedin">
+              <img src="./assets/icons/linkedin.svg" alt="" width="19" height="19" />
+            </a>
+            <a href="https://github.com/cauardev" target="_blank" rel="noopener noreferrer" aria-label="Abrir GitHub de Cauã Robson" data-i18n-aria-label="social.github">
+              <img src="./assets/icons/github.svg" alt="" width="19" height="19" />
+            </a>
+            <a href="https://www.instagram.com/c4ua.rbs/" target="_blank" rel="noopener noreferrer" aria-label="Abrir Instagram de Cauã Robson" data-i18n-aria-label="social.instagram">
+              <img src="./assets/icons/instagram.svg" alt="" width="19" height="19" />
+            </a>
+          </nav>
+        </div>
+      </section>
+
+      <section class="home-editorial" aria-label="Apresentação profissional" data-i18n-aria-label="home.aboutAria">
+        <article class="about-editorial" data-reveal>
+          <p class="section-code"><span>01</span> / <span data-i18n="home.aboutLabel">Sobre</span></p>
+          <h2 data-i18n="home.aboutTitle">Java no centro. Projetos para mostrar o avanço.</h2>
+          <div class="about-copy about-copy--single">
+            <p data-i18n-html="home.aboutProfile">
+              Curso <strong>Ciência da Computação na UVV</strong>, com foco em desenvolvimento <strong>Back-End</strong> no ecossistema <strong>Java + Spring</strong>. Mantenho uma rotina consistente de estudos através do Java Developer da IBM e do curso do Nélio Alves, aplicando o conteúdo em projetos reais. Aberto a oportunidades profissionais — presencial, remoto ou híbrido.
+            </p>
+          </div>
+        </article>
+
+        <aside class="focus-panel" data-reveal>
+          <p class="section-code"><span>02</span> / <span data-i18n="home.focusLabel">Foco atual</span></p>
+          <h2 data-i18n="home.focusTitle">Ecossistema Java</h2>
+          <p data-i18n="home.focusCopy">Tecnologias que já aparecem nos projetos publicados.</p>
+          <ul class="focus-list">
+            <li><img src="./assets/icons/openjdk.svg" alt="" /><span>Java 17+</span></li>
+            <li><img src="./assets/icons/spring.svg" alt="" /><span>Spring Boot</span></li>
+            <li><img src="./assets/icons/postgresql.svg" alt="" /><span>PostgreSQL</span></li>
+            <li><img src="./assets/icons/docker.svg" alt="" /><span>Docker</span></li>
+          </ul>
+          <a class="inline-link" href="./tecnologias/index.html">
+            <span data-i18n="actions.viewTechnologies">Ver todas as tecnologias</span>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" /></svg>
+          </a>
+        </aside>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="page-shell footer-main">
+        <div>
+          <p class="footer-signature">Cauã Robson</p>
+          <p class="footer-note" data-i18n="global.footerNote">Backend em construção, com o progresso publicado.</p>
+        </div>
+        <div class="footer-links">
+          <a href="https://github.com/cauardev" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/cau%C3%A3robson" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+          <a href="https://www.instagram.com/c4ua.rbs/" target="_blank" rel="noopener noreferrer">Instagram ↗</a>
+        </div>
+        <div class="footer-actions">
+          <span class="location-pill">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z" fill="none" stroke="currentColor" stroke-width="1.7" /><circle cx="12" cy="10" r="2.5" fill="none" stroke="currentColor" stroke-width="1.7" /></svg>
+            <span data-i18n="global.locationShort">Vila Velha, ES</span>
+          </span>
+          <button class="back-to-top" type="button" data-back-to-top aria-label="Voltar ao topo" title="Voltar ao topo">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 15 6-6 6 6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" /></svg>
+          </button>
+        </div>
+      </div>
+      <div class="page-shell footer-bottom">
+        <p>© 2026 Cauã Robson</p>
+        <p>HTML · Tailwind CSS · JavaScript</p>
+      </div>
+    </footer>
+  </body>
+</html>

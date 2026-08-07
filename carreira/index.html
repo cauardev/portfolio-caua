@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="pt-BR" data-theme="dark" data-language="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Trajetória de Cauã Robson: início prático, projetos e evolução no desenvolvimento backend Java." data-page-description />
+    <meta name="theme-color" content="#050505" />
+    <title>Carreira | Cauã Robson</title>
+    <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
+    <script>
+      document.documentElement.classList.add("js");
+      try {
+        const savedTheme = localStorage.getItem("portfolio-theme");
+        const systemTheme = matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+        const savedLanguage = localStorage.getItem("portfolio-language");
+        document.documentElement.dataset.theme = savedTheme || systemTheme;
+        document.documentElement.dataset.language = savedLanguage === "en" ? "en" : "pt";
+        document.documentElement.lang = savedLanguage === "en" ? "en" : "pt-BR";
+      } catch (_) {
+        document.documentElement.dataset.theme = "dark";
+        document.documentElement.dataset.language = "pt";
+      }
+    </script>
+    <link rel="preload" href="../assets/fonts/allura-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+    <script src="../assets/js/script.js" defer></script>
+  </head>
+  <body data-page="career">
+    <a class="skip-link" href="#conteudo" data-i18n="global.skip">Ir para o conteúdo</a>
+
+    <header class="site-header">
+      <div class="scroll-progress" aria-hidden="true"><span data-scroll-progress></span></div>
+      <div class="page-shell header-frame">
+        <a class="brand" href="../index.html" aria-label="Cauã Robson — página inicial" data-i18n-aria-label="global.brandLabel">
+          <span class="brand-mark" aria-hidden="true">CR</span><span>Cauã Robson</span>
+        </a>
+        <nav class="main-nav" aria-label="Navegação principal" data-i18n-aria-label="global.navLabel">
+          <a class="nav-link" href="../index.html" data-i18n="nav.home">Home</a>
+          <a class="nav-link" href="../tecnologias/index.html" data-i18n="nav.technologies">Tecnologias</a>
+          <a class="nav-link" href="../projetos/index.html" data-i18n="nav.projects">Projetos</a>
+          <a class="nav-link" href="../carreira/index.html" aria-current="page" data-i18n="nav.career">Carreira</a>
+        </nav>
+        <div class="control-cluster">
+          <button class="language-toggle" type="button" data-language-toggle aria-label="Mudar idioma para inglês" title="Mudar idioma para inglês">
+            <img src="../assets/flags/br.svg" data-language-flag data-src-pt="../assets/flags/br.svg" data-src-en="../assets/flags/us.svg" width="20" height="15" alt="" />
+            <span data-language-code>PT</span>
+          </button>
+          <button class="theme-toggle" type="button" data-theme-toggle aria-label="Alternar tema" title="Alternar tema">
+            <svg class="theme-icon theme-icon--sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8" /><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" /></svg>
+            <svg class="theme-icon theme-icon--moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 14.2A8.5 8.5 0 0 1 9.8 3.5 8.5 8.5 0 1 0 20.5 14.2Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" /></svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="page-shell page-main" id="conteudo">
+      <section class="career-hero" data-reveal aria-labelledby="career-title">
+        <p class="career-signature" aria-hidden="true">Cauã Robson</p>
+        <p class="section-code"><span>03</span> / <span data-i18n="career.eyebrow">Trajetória</span></p>
+        <h1 id="career-title" data-i18n="career.title">Carreira em construção.</h1>
+        <p class="career-lead" data-i18n="career.intro">Ainda estou no começo profissional. Esta página registra o que já pratiquei sem transformar curso em cargo ou estudo em experiência de mercado.</p>
+
+        <div class="career-stats">
+          <div><strong>2025</strong><span data-i18n="career.startLabel">início prático</span></div>
+          <div><strong>Vila Velha</strong><span data-i18n="career.cityCountry">ES · Brasil</span></div>
+          <div><strong>Java + Spring</strong><span data-i18n="career.focusLabel">foco técnico</span></div>
+        </div>
+      </section>
+
+      <section class="career-split" data-reveal>
+        <header class="career-section-heading">
+          <p class="section-code" data-i18n="career.practiceEyebrow">Na prática</p>
+          <h2 data-i18n="career.practiceTitle">O que já consigo demonstrar.</h2>
+        </header>
+        <div class="practice-list">
+          <article class="practice-item">
+            <span>01</span>
+            <div><h3 data-i18n="career.practiceOneTitle">Backend com fundamentos</h3><p data-i18n="career.practiceOneCopy">Orientação a objetos, validações, exceções específicas, persistência e responsabilidades separadas em camadas.</p></div>
+          </article>
+          <article class="practice-item">
+            <span>02</span>
+            <div><h3 data-i18n="career.practiceTwoTitle">Projetos que podem ser abertos</h3><p data-i18n="career.practiceTwoCopy">CRM em Java puro, ARCA com Spring Boot e este portfólio — todos com código disponível no GitHub.</p></div>
+          </article>
+          <article class="practice-item">
+            <span>03</span>
+            <div><h3 data-i18n="career.practiceThreeTitle">Rotina de evolução</h3><p data-i18n="career.practiceThreeCopy">Ciência da Computação na UVV, Java Developer da IBM e estudos de Java com Nélio Alves.</p></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="career-split education-section" data-reveal>
+        <header class="career-section-heading">
+          <p class="section-code" data-i18n="career.educationEyebrow">Formação</p>
+          <h2 data-i18n="career.educationTitle">Formação e estudos em andamento.</h2>
+          <p class="education-intro" data-i18n="career.educationIntro">Graduação e trilhas que sustentam meu desenvolvimento em backend, software e cloud.</p>
+        </header>
+
+        <div class="education-panel">
+          <p class="education-summary">
+            <span class="status-dot" aria-hidden="true"></span>
+            <span data-i18n="career.educationSummary">Os cursos profissionais listados já ultrapassaram 50% de conclusão, com conteúdos aplicados na prática em projetos.</span>
+          </p>
+
+          <div class="education-list">
+            <article class="education-item">
+              <span class="education-logo education-logo--uvv"><img src="../assets/icons/uvv.png" width="42" height="42" alt="Universidade Vila Velha" loading="lazy" decoding="async" /></span>
+              <div class="education-copy">
+                <p>Universidade Vila Velha</p>
+                <h3 data-i18n="career.degreeName">Ciência da Computação</h3>
+                <span data-i18n="career.degreePeriod">2026/1 — 2029/12 (previsão)</span>
+              </div>
+              <span class="education-state" data-i18n="career.degreeStatus">Em andamento</span>
+            </article>
+
+            <article class="education-item">
+              <span class="education-logo education-logo--wide"><img src="../assets/icons/ibm.svg" width="48" height="22" alt="IBM" loading="lazy" decoding="async" /></span>
+              <div class="education-copy"><p>IBM</p><h3>Java Developer</h3></div>
+              <span class="education-progress"><strong>50%+</strong><small data-i18n="career.courseStatus">cursando</small></span>
+            </article>
+
+            <article class="education-item">
+              <span class="education-logo"><img src="../assets/icons/udemy.svg" width="28" height="42" alt="Udemy" loading="lazy" decoding="async" /></span>
+              <div class="education-copy"><p>Nélio Alves</p><h3 data-i18n="career.nelioCourse">Java + Programação Orientada a Objetos</h3></div>
+              <span class="education-progress"><strong>50%+</strong><small data-i18n="career.courseStatus">cursando</small></span>
+            </article>
+
+            <article class="education-item">
+              <span class="education-logo"><img src="../assets/icons/ita.svg" width="42" height="42" alt="ITA" loading="lazy" decoding="async" /></span>
+              <div class="education-copy"><p data-i18n="career.itaProvider">Instituto Tecnológico de Aeronáutica (ITA)</p><h3 data-i18n="career.itaCourse">Desenvolvimento de Software Ágil</h3></div>
+              <span class="education-progress"><strong>50%+</strong><small data-i18n="career.courseStatus">cursando</small></span>
+            </article>
+
+            <article class="education-item">
+              <span class="education-logo education-logo--usp"><img src="../assets/icons/usp.png" width="42" height="32" alt="Universidade de São Paulo" loading="lazy" decoding="async" /></span>
+              <div class="education-copy"><p data-i18n="career.uspProvider">Universidade de São Paulo (USP)</p><h3 data-i18n="career.uspCourse">Programação Orientada a Objetos I &amp; II</h3></div>
+              <span class="education-progress"><strong>50%+</strong><small data-i18n="career.courseStatus">cursando</small></span>
+            </article>
+
+            <article class="education-item">
+              <span class="education-logo education-logo--wide"><img src="../assets/icons/ibm.svg" width="48" height="22" alt="IBM" loading="lazy" decoding="async" /></span>
+              <div class="education-copy"><p>IBM</p><h3>Back-End Development</h3></div>
+              <span class="education-progress"><strong>50%+</strong><small data-i18n="career.courseStatus">cursando</small></span>
+            </article>
+
+            <article class="education-item">
+              <span class="education-logo education-logo--wide"><img src="../assets/icons/ibm.svg" width="48" height="22" alt="IBM" loading="lazy" decoding="async" /></span>
+              <div class="education-copy"><p>IBM</p><h3>AI Developer</h3></div>
+              <span class="education-progress"><strong>50%+</strong><small data-i18n="career.courseStatus">cursando</small></span>
+            </article>
+
+            <article class="education-item">
+              <span class="education-logo education-logo--mono"><img src="../assets/icons/amazonwebservices.svg" width="42" height="26" alt="AWS" loading="lazy" decoding="async" /></span>
+              <div class="education-copy"><p>Amazon Web Services</p><h3>Cloud Solutions Architect</h3></div>
+              <span class="education-progress"><strong>50%+</strong><small data-i18n="career.courseStatus">cursando</small></span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="career-split timeline-section" data-reveal>
+        <header class="career-section-heading">
+          <p class="section-code" data-i18n="career.timelineEyebrow">Linha do tempo</p>
+          <h2 data-i18n="career.timelineTitle">Evolução documentada.</h2>
+        </header>
+        <div class="timeline-list">
+          <article class="timeline-entry">
+            <time datetime="2025">2025</time>
+            <div><h3 data-i18n="career.timeline2025Title">Início prático</h3><p data-i18n="career.timeline2025Copy">Os estudos começaram a virar aplicações próprias, exercícios estruturados e os primeiros repositórios publicados.</p></div>
+          </article>
+          <article class="timeline-entry">
+            <time datetime="2026">2026</time>
+            <div><h3 data-i18n="career.timeline2026Title">Foco em backend Java</h3><p data-i18n="career.timeline2026Copy">Aprofundamento em Java, Spring Boot, PostgreSQL, Git, Docker e organização de projetos com responsabilidades claras.</p></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="career-split certification-section" data-reveal>
+        <header class="career-section-heading">
+          <p class="section-code" data-i18n="career.certEyebrow">Base complementar</p>
+          <h2 data-i18n="career.certTitle">Certificações e repertório de negócio.</h2>
+        </header>
+        <div class="certification-list" aria-label="Certificações concluídas" data-i18n-aria-label="career.certListAria">
+          <a class="certification-item" href="../assets/certificates/fgv-introducao-git-github.pdf" target="_blank" rel="noopener noreferrer" aria-label="Abrir certificado Introdução ao Git e GitHub" data-i18n-aria-label="career.certFgvAria">
+            <span class="certificate-brand certificate-brand--fgv" aria-hidden="true">FGV</span>
+            <span class="certificate-copy">
+              <span class="certificate-provider">Fundação Getulio Vargas</span>
+              <strong data-i18n="career.certFgvTitle">Introdução ao Git e GitHub</strong>
+              <span class="certificate-meta"><span data-i18n="career.certCompleted">Concluído</span> · 15h · 2026</span>
+            </span>
+            <svg class="certificate-arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" /></svg>
+          </a>
+
+          <a class="certification-item" href="../assets/certificates/ibm-introduction-software-engineering.jpg" target="_blank" rel="noopener noreferrer" aria-label="Abrir certificado Introduction to Software Engineering" data-i18n-aria-label="career.certCourseraAria">
+            <span class="certificate-brand certificate-brand--ibm" aria-hidden="true"><img src="../assets/icons/ibm.svg" width="46" height="20" alt="" loading="lazy" decoding="async" /></span>
+            <span class="certificate-copy">
+              <span class="certificate-provider">IBM · Coursera</span>
+              <strong>Introduction to Software Engineering</strong>
+              <span class="certificate-meta"><span data-i18n="career.certCompleted">Concluído</span> · 2026</span>
+            </span>
+            <svg class="certificate-arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" /></svg>
+          </a>
+        </div>
+
+      </section>
+
+      <section class="career-closing" data-reveal>
+        <div class="closing-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24"><path d="M12 3 4.5 6v5c0 4.8 3.2 8.2 7.5 10 4.3-1.8 7.5-5.2 7.5-10V6L12 3Z" fill="none" stroke="currentColor" stroke-width="1.6" /><path d="m9 12 2 2 4-5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" /></svg>
+        </div>
+        <div>
+          <h2 data-i18n="career.closingTitle">Primeiros passos, evidências reais.</h2>
+          <p data-i18n="career.closingCopy">A próxima etapa é ganhar experiência dentro de um time. Até lá, meus projetos mostram como estou construindo a base.</p>
+        </div>
+        <div class="closing-actions">
+          <a class="button button--filled" href="../projetos/index.html"><span data-i18n="actions.viewProjects">Ver projetos</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" /></svg></a>
+          <a class="button button--quiet" href="https://www.linkedin.com/in/cau%C3%A3robson" target="_blank" rel="noopener noreferrer"><span data-i18n="actions.openLinkedin">Abrir LinkedIn</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" /></svg></a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="page-shell footer-main">
+        <div><p class="footer-signature">Cauã Robson</p><p class="footer-note" data-i18n="global.footerNote">Backend em construção, com o progresso publicado.</p></div>
+        <div class="footer-links">
+          <a href="https://github.com/cauardev" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/cau%C3%A3robson" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+          <a href="https://www.instagram.com/c4ua.rbs/" target="_blank" rel="noopener noreferrer">Instagram ↗</a>
+        </div>
+        <div class="footer-actions">
+          <span class="location-pill"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z" fill="none" stroke="currentColor" stroke-width="1.7" /><circle cx="12" cy="10" r="2.5" fill="none" stroke="currentColor" stroke-width="1.7" /></svg><span data-i18n="global.locationShort">Vila Velha, ES</span></span>
+          <button class="back-to-top" type="button" data-back-to-top aria-label="Voltar ao topo" title="Voltar ao topo"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 15 6-6 6 6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" /></svg></button>
+        </div>
+      </div>
+      <div class="page-shell footer-bottom"><p>© 2026 Cauã Robson</p><p>HTML · Tailwind CSS · JavaScript</p></div>
+    </footer>
+  </body>
+</html>
