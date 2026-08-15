@@ -1,6 +1,6 @@
 # Portfólio — Cauã Robson
 
-Portfólio estático de **Cauã Robson**, Backend Developer focado no ecossistema Java e Spring.
+Portfólio estático de **Cauã Robson**, Backend Developer focado no ecossistema Java e Spring com margem a FullStack.
 
 ## Páginas
 
