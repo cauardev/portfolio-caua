@@ -48,7 +48,7 @@ Os certificados publicados ficam em `assets/certificates/` e são abertos direta
 
 ## Publicar no GitHub Pages
 
-Envie o conteúdo desta pasta para a raiz do repositório `cauardev/portfolio`. Em **Settings → Pages**, selecione a branch `main` e a pasta `/ (root)`.
+Envie o conteúdo desta pasta para a src do repositório `cauardev/portfolio`. Em **Settings → Pages**, selecione a branch `main` e a pasta `/ (root)`.
 
 ```text
 https://cauardev.github.io/portfolio/
