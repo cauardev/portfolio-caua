@@ -12,7 +12,7 @@ Portfólio estático de **Cauã Robson**, Backend Developer focado no ecossistem
 ## Recursos
 
 - tema claro e escuro com preferência salva no navegador;
-- conteúdo completo em português brasileiro e inglês;
+- conteúdo completo em português brasileiro e inglês (futuramente em espanhol);
 - navegação fixa e indicador de progresso da página;
 - animações discretas durante o scroll, respeitando `prefers-reduced-motion`;
 - cards com microinterações de hover para mouse e feedback visual de foco;
