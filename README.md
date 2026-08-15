@@ -24,7 +24,7 @@ Portfólio estático de **Cauã Robson**, Backend Developer focado no ecossistem
 
 Não é necessário instalar dependências para publicar ou visualizar o site. Extraia o ZIP por completo, abra a pasta que contém este `README.md` e clique no arquivo `index.html` da raiz. No VS Code, a opção recomendada é clicar com o botão direito nesse `index.html` e escolher **Open with Live Server**.
 
-Os links usam caminhos explícitos para os arquivos `index.html`, então Home, Tecnologias, Projetos e Carreira também funcionam ao abrir o site diretamente pelo Explorador de Arquivos do Windows. Não abra apenas as pastas `tecnologias`, `projetos` ou `carreira`, pois elas são partes internas do site.
+Os links usam caminhos explícitos para os arquivos `index.html`, então Home, Tecnologias, Projetos e Carreira também funcionam ao abrir o site diretamente pelo Windows Explorer. Não abra apenas as pastas `tecnologias`, `projetos` ou `carreira`, pois elas são partes internas do site.
 
 Se preferir usar o servidor de desenvolvimento opcional, abra o terminal na pasta que contém este `README.md` e o `package.json`:
 
